@@ -24,6 +24,10 @@ body {
 	margin-top: 20px;
 }
 
+.title-logo-image {
+	max-width: 115px;
+}
+
 .title-tagline {
 	margin-top: 0px;
 }
