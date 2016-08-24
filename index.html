@@ -1,43 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joseph's Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6"><img src="http://placehold.it/100x100" class="img-responsive"></div>
-        <div class="col-md-6">
-          <h1>Jane Doette</h1>
+        <div class="col-md-6 title-logo"><img src="http://placehold.it/100x100" class="img-responsive" alt="Udacity Logo"></div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="text-thin title-super">Jane Doette</h1>
           <h3>Front-end Ninja</h3>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
       <div>
-        <img src="http://placehold.it/1140x350" class="img-responsive">
+        <img src="http://placehold.it/1140x350" class="img-responsive" alt="Some image">
       </div>
       <div class="row">
-        <h2 class="col-md-12">Featured Work</h2>
+        <h2 class="col-md-12 text-muted">Featured Work</h2>
       </div>
-      <div class="row">
+      <div class="row text-center">
         <div class="col-md-4">
-          <img src="http://placehold.it/555x300" class="img-responsive">
+          <img src="http://placehold.it/555x300" class="img-responsive" data-toggle="modal" data-target="#project1" alt="Some image">
           <h3>Appify</h3>
           <p><a href="http://github.com">Link to project</a></p>
         </div>
         <div class="col-md-4">
-          <img src="http://placehold.it/555x300" class="img-responsive">
+          <img src="http://placehold.it/555x300" class="img-responsive" alt="Some image">
           <h3>Appify</h3>
           <p><a href="http://github.com">Link to project</a></p>
         </div>
         <div class="col-md-4">
-          <img src="http://placehold.it/555x300" class="img-responsive">
+          <img src="http://placehold.it/555x300" class="img-responsive" alt="Some image">
           <h3>Appify</h3>
           <p><a href="http://github.com">Link to project</a></p>
         </div>
       </div>
       </div>
     </div>
+
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="http://placehold.it/555x300">
+                This was my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
   </body>
 </html>
