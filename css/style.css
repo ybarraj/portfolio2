@@ -12,6 +12,10 @@ body {
 	color:#7d97ad;
 }
 
+.section-title {
+	font-size: 3em;
+}
+
 .text-thin {
 	font-weight: 100;
 }
@@ -22,4 +26,21 @@ body {
 
 .title-logo {
 	margin-top: 20px;
+}
+
+.title-tagline {
+	margin-top: 0px;
+}
+
+.project-title {
+	font-size: 2.5em;
+}
+
+/*following hr code is from http://stackoverflow.com/questions/4151743/how-i-change-the-thickness-of-my-hr-tag */
+hr {
+    border: none;
+    height: 4px;
+    /* Set the hr color */
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
 }
